@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zakat Calculator UAE</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #f5f1e8;
+            background:
+                radial-gradient(circle at top left, rgba(24, 124, 95, 0.35), transparent 34%),
+                radial-gradient(circle at bottom right, rgba(10, 48, 37, 0.55), transparent 38%),
+                linear-gradient(160deg, #0f5a48 0%, #07211a 78%);
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 860px;
+            margin: 0 auto;
+            padding: 64px 24px 80px;
+        }
+        .eyebrow {
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            font-size: 0.82rem;
+            color: #d9b676;
+            margin-bottom: 18px;
+            font-weight: 700;
+        }
+        h1 {
+            font-size: clamp(2.5rem, 5vw, 4.6rem);
+            line-height: 1.02;
+            font-weight: 700;
+            max-width: 760px;
+            margin-bottom: 18px;
+        }
+        .lead {
+            max-width: 720px;
+            font-size: 1.1rem;
+            color: rgba(245, 241, 232, 0.88);
+            margin-bottom: 36px;
+        }
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 18px;
+            margin: 42px 0 54px;
+        }
+        .card {
+            background: rgba(255, 255, 255, 0.08);
+            border: 1px solid rgba(217, 182, 118, 0.18);
+            border-radius: 22px;
+            padding: 24px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 18px 40px rgba(0, 0, 0, 0.18);
+        }
+        .card h2 {
+            font-size: 1.05rem;
+            margin-bottom: 10px;
+            color: #f5f1e8;
+        }
+        .card p {
+            color: rgba(245, 241, 232, 0.78);
+            font-size: 0.96rem;
+        }
+        .button-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 14px;
+            margin-top: 26px;
+        }
+        .button {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            min-width: 180px;
+            padding: 14px 20px;
+            border-radius: 999px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: transform 0.15s ease, opacity 0.15s ease;
+        }
+        .button:hover {
+            transform: translateY(-1px);
+            opacity: 0.96;
+        }
+        .button-primary {
+            background: #d9b676;
+            color: #10251f;
+        }
+        .button-secondary {
+            background: rgba(255, 255, 255, 0.08);
+            color: #f5f1e8;
+            border: 1px solid rgba(245, 241, 232, 0.18);
+        }
+        .footer {
+            margin-top: 60px;
+            color: rgba(245, 241, 232, 0.62);
+            font-size: 0.92rem;
+        }
+        .footer a {
+            color: #f5f1e8;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="eyebrow">Zakat Calculator UAE</div>
+        <h1>Calculate zakat in AED with clearer nisab checks and cleaner yearly records.</h1>
+        <p class="lead">
+            Zakat Calculator UAE is a focused iPhone app for estimating zakat across cash,
+            gold, silver, shares, savings, business assets, and liabilities. It is built for
+            people who want an AED-first workflow, a straightforward result, and a reliable
+            place to keep yearly records.
+        </p>
+
+        <div class="card-grid">
+            <div class="card">
+                <h2>AED-first workflow</h2>
+                <p>Use UAE-friendly amounts and compare gold or silver nisab in one place.</p>
+            </div>
+            <div class="card">
+                <h2>Clear results</h2>
+                <p>See net wealth, nisab threshold, and zakat due with a simple breakdown.</p>
+            </div>
+            <div class="card">
+                <h2>Built for records</h2>
+                <p>Save calculations, export them, and keep a cleaner yearly zakat trail.</p>
+            </div>
+        </div>
+
+        <div class="button-row">
+            <a class="button button-primary" href="./privacy.html">Privacy Policy</a>
+            <a class="button button-secondary" href="./support.html">Support</a>
+        </div>
+
+        <div class="footer">
+            <p>Contact: <a href="mailto:ivan@cosmicproduction.hr">ivan@cosmicproduction.hr</a></p>
+            <p>&copy; 2026 SoftSplit d.o.o. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>
